@@ -11,6 +11,7 @@ function preload()
 
 function setup() {
   createCanvas(500,500);
+  database = firebase.database();
   dog = createSprite(250,250,50,50)
   dog.visible = false
   
